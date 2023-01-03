@@ -544,7 +544,7 @@ footer .footer_bottom .footer_border a{
         width: 100%;
     }
     .section1 .item h1{
-        font-size: 46px;
+        font-size: 32px;
         width: 100%;
     }
     .section1 .item .bttn{
@@ -557,7 +557,8 @@ footer .footer_bottom .footer_border a{
         flex-direction: column;
     }
     header .header_bottom_inner .bttn{
-        padding: 1px 38px;
+        padding: 10px 37px;
+        margin-top: 9px;
     }
 }
 
@@ -592,10 +593,10 @@ footer .footer_bottom .footer_border a{
 
 @media screen and (max-width: 800px) {
     .section6 .item .testimonal{
-        width:8%;
+        width:12%;
     }
     .section6 .item p{
-        font-size: 9px;
+        font-size: 16px;
     }
     .section7 .title h2 {
         font-size: 34px;
@@ -625,3 +626,32 @@ footer .footer_bottom .footer_border a{
         padding: 10px 29px;
     }
 }
+
+@media screen and (max-width: 912px) {
+   header .header_top .header_top_inner{
+    display: none   ;
+   }
+}
+
+@media screen and (max-width: 912px) {
+    header .header_bottom .header_bottom_inner ul{
+     flex-wrap: wrap;
+    }
+ }
+
+ 
+@media screen and (max-width: 414px) {
+    .section8 .form_wraper{
+        flex-direction: column;
+        
+    }
+    .section8 .form_wraper .form_1 input{
+        margin-top: 26px;
+    }
+    .section8 .form_wraper1{
+        flex-direction: column;
+    }
+    .section8 .form_wraper1{
+        margin-top:-15px;
+    }
+ }
